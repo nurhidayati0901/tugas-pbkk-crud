@@ -19,7 +19,7 @@ Screenshot hasil
 
 3. Form edit data buku
 
-![image](https://drive.google.com/uc?export=view&id=1NHRZA7iAPMOHgliW_AhvjyDnkHonSCxR)
+![image](https://drive.google.com/uc?export=view&id=1dfAU0arBfF56BSWMxUUIA27gCxpopOOi)
 
 4. Menampilkan detail data buku
 
