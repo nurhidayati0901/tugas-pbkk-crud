@@ -94,6 +94,15 @@
                                 @enderror
                             </div>
                         </div>
+                        <div class="form-group row">
+                            <label for="book_detail" class="col-sm-2 col-form-label">Detail Buku</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control @error('book_detail') is-invalid @enderror" id="book_detail" name="book_detail" value="{{ $book->detail->book_detail }}">
+                                @error('book_detail')
+                                    <div id="validationServerUsernameFeedback" class="invalid-feedback">Field detail harus diisi</div>
+                                @enderror
+                            </div>
+                        </div>
                         <div class="mb-2">
                             <button type="submit" class="btn btn-warning float-right">Update</button>
                             <a href="{{ route('show-detail', $book->id) }}" class="btn btn-secondary float-right mr-3">Kembali</a>
